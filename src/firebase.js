@@ -3,7 +3,7 @@ import 'firebase/app'
 import 'firebase/database'
 
 const config = {
-    apiKey: "AIzaSyDcERzkhacQKZR3KXclGb98EGpqcvKUlx4",
+    
     authDomain: "mcity-d58f7.firebaseapp.com",
     databaseURL: "https://mcity-d58f7.firebaseio.com",
     projectId: "mcity-d58f7",
