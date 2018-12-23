@@ -1,29 +1,31 @@
 import React from 'react';
-import {Tag} from '../../ui/misc'
+import { Tag } from '../../ui/misc';
+import Blocks from './Blocks';
 
 const MatchesHome = () => {
     return (
         <div className="home_matches_wrapper">
             <div className="container">
-                <Tag 
+                <Tag
                     bck="#0e1731"
-                    size='50px'
+                    size="50px"
                     color="#ffffff"
                 >
                     Matches
                 </Tag>
 
-                BLOCK
+                    <Blocks/>
 
-                <Tag 
+                <Tag
                     bck="#ffffff"
-                    size='22px'
+                    size="22px"
                     color="#0e1731"
                     link={true}
-                    linkTo= '/the_team'
+                    linkto="/the_team"
                 >
-                    see more matches
+                    See more matches
                 </Tag>
+
             </div>
         </div>
     );

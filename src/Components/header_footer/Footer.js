@@ -1,21 +1,21 @@
 import React from 'react';
-import {CityLogo} from '../ui/icons'
+import { CityLogo } from '../ui/icons';
 
-const Footer = (props) => {
+const Footer = () => {
     return (
-        <footer className='bck_blue'>
-            <div className='footer_logo'>
-                <CityLogo 
+        <footer className="bck_blue">
+            <div className="footer_logo">
+                <CityLogo
                     width="70px"
                     height="70px"
                     link={true}
-                    linkTo='/'
+                    linkTo="/"
                 />
             </div>
-            <div className='footer_discl'>
-                Manchester City 2018. All Rights Reserved
+            <div className="footer_discl">
+                Manchester city 2018.All rights reserved.
             </div>
-
+            
         </footer>
     );
 };
